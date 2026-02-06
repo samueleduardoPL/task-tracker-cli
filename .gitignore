@@ -1,0 +1,13 @@
+# Virtual enviroment
+.venv/
+
+# VS code settings
+.vscode/
+
+# Runtime files
+task.json
+idFile.json
+
+# Python cache
+__pycache__/
+*.pyc
