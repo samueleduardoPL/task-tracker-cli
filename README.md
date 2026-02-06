@@ -2,6 +2,7 @@
 
 A simple command-line interface (CLI) application to track tasks you need to do, tasks in progress, and completed tasks.
 This project stores tasks locally using a JSON file and is designed as a learning project for practicing Python fundamentals.
+Project specifications found in: https://roadmap.sh/projects/task-tracker
 
 ## ✨ Features
 
