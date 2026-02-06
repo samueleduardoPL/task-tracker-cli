@@ -1,4 +1,3 @@
-# task-tracker-cli
 # Task Tracker CLI
 
 A simple command-line interface (CLI) application to track tasks you need to do, tasks in progress, and completed tasks.  
