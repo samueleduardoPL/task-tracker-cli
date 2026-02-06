@@ -43,24 +43,24 @@ python task.py <command> [arguments]
 
 ## 📖 Available Commands
 Add a task:
---python task.py add "Buy groceries"
+- python task.py add "Buy groceries"
 
 Update a task description:
---python task.py update 1 "Buy groceries and cook dinner"
+- python task.py update 1 "Buy groceries and cook dinner"
 
 Delete a task:
---python task.py delete 1
+- python task.py delete 1
 
 Mark task status:
---python task.py mark-in-progress 1
---python task.py mark-done 1
---python task.py mark-todo 1
+- python task.py mark-in-progress 1
+- python task.py mark-done 1
+- python task.py mark-todo 1
 
 List tasks:
---python task.py list
---python task.py list todo
---python task.py list in-progress
---python task.py list done
+- python task.py list
+- python task.py list todo
+- python task.py list in-progress
+- python task.py list done
 
 ## 💾 Data Storage
 
