@@ -1,44 +1,47 @@
-# Task Tracker CLI
+Task Tracker CLI
 
-A simple command-line interface (CLI) application to track tasks you need to do, tasks in progress, and completed tasks.  
+A simple command-line interface (CLI) application to track tasks you need to do, tasks in progress, and completed tasks.
 This project stores tasks locally using a JSON file and is designed as a learning project for practicing Python fundamentals.
 
----
+✨ Features
 
-## ✨ Features
+Add new tasks
 
-- Add new tasks
-- Update task descriptions
-- Mark tasks as:
-  - todo
-  - in-progress
-  - done
-- Delete tasks
-- List all tasks or filter them by status
-- Persistent storage using JSON files
+Update task descriptions
 
----
+Mark tasks as:
 
-## 🛠 Requirements
+todo
 
-- Python 3.10 or higher
-- No external libraries required
+in-progress
 
----
+done
 
-## ▶️ How to Run
+Delete tasks
+
+List all tasks or filter them by status
+
+Persistent storage using JSON files
+
+🛠 Requirements
+
+Python 3.10 or higher
+
+No external libraries required
+
+▶️ How to Run
 
 Clone the repository and navigate into the project folder:
 
-```bash
 git clone https://github.com/samueleduardoPL/task-tracker-cli.git
 cd task-tracker-cli
+
 
 Run the program using Python:
 
 python task.py <command> [arguments]
 
-## 📖 Available Commands
+📖 Available Commands
 Add a task
 python task.py add "Buy groceries"
 
@@ -59,15 +62,14 @@ python task.py list todo
 python task.py list in-progress
 python task.py list done
 
-## 💾 Data Storage
+💾 Data Storage
 
-Tasks are stored in task.json
-
-Task IDs are persisted across executions using idFile.json
+Tasks are stored in task.json.
+Task IDs are persisted across executions using idFile.json.
 
 Both files are created automatically if they do not exist.
 
-## 🎯 Purpose of This Project
+🎯 Purpose of This Project
 
 This project was built as a learning exercise to practice:
 
@@ -85,8 +87,7 @@ Code documentation and comments
 
 The goal is to show progress and understanding rather than perfection.
 
-## 👤 Author
+👤 Author
 
 Samuel Eduardo Polanco Lithgow
-
 
